@@ -1,0 +1,23 @@
+
+*{
+  box-sizing: border-box;
+}
+
+body{
+  background-color: red;
+}
+
+main{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 2rem;
+  width: 90%;
+  margin: 0 auto; /*tRoubLe*/
+  border: 1px solid green;
+
+}
+
+section{
+  background-color: white;
+  border: 1px solid pink;
+}
